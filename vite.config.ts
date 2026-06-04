@@ -5,6 +5,6 @@ export default defineConfig({
     server: { entry: "server" },
   },
   nitro: {
-    preset: "vercel",  // vercel-edge emas, shunchaki "vercel"
+    preset: "node-server",
   },
 });
